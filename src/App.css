@@ -27,6 +27,20 @@
 .App-link {
   color: #61dafb;
 }
+.container {
+  background-color: black;
+}
+.heading {
+  color: white;
+  text-align: center;
+}
+.repo {
+  font-size: xx-large;
+}
+.loading {
+  font-size: larger;
+  color: white;
+}
 
 @keyframes App-logo-spin {
   from {
