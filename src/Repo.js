@@ -3,7 +3,6 @@ import App from "./App";
 
 // https://api.github.com/search/repositories?q=html
 function Repo() {
-  <App message="hey der" />;
   const [inputValue, setInputValue] = React.useState("");
   const [isLoading, setIsLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
@@ -99,10 +98,7 @@ function Repo() {
       <br />
       <ul>
         <li>
-          <a href={outputValue} target="_self">
-            {outputValue}
-          </a>
-          &nbsp;&nbsp;
+          <h3>{outputValue}</h3>
         </li>
       </ul>
       <br />
