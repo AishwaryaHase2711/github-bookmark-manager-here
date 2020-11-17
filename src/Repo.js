@@ -98,7 +98,7 @@ function Repo() {
       <br />
       <ul>
         <li>
-          <h3>{outputValue}</h3>
+          <h3 className="loading">{outputValue}</h3>
         </li>
       </ul>
       <br />
